@@ -1,0 +1,5 @@
+conda activate zth_pytorch
+nohup python -u /home/xx316/zth/deeplabv3-plus-pytorch-main/train_withoutfreezen.py >> /home/xx316/zth/train_withoutfreezen_output.log 2>&1 &
+nohup python -u /home/xx316/zth/deeplabv3-plus-pytorch-main/train_freezen.py >> /home/xx316/zth/train_freezen_output.log 2>&1 &
+nohup python -u /home/xx316/zth/deeplabv3-plus-pytorch-main/train_DRN_withoutfreezen.py >> /home/xx316/zth/train_DRN_withoutfreezen_output.log 2>&1 &
+ps -u
